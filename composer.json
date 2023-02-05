@@ -14,8 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Untek\\Core\\Contract\\": "src",
-      "Untek\\Core\\Contract\\Tests\\": "tests"
+      "Untek\\Core\\Contract\\": "src"
     }
   }
 }
