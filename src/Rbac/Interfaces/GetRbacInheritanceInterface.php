@@ -2,6 +2,10 @@
 
 namespace Untek\Core\Contract\Rbac\Interfaces;
 
+use Untek\Core\Code\Helpers\DeprecateHelper;
+
+DeprecateHelper::hardThrow();
+
 /**
  * Возможность получения древа наследования полномочий RBAC
  * 

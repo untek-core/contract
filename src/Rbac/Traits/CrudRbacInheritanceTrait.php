@@ -2,6 +2,10 @@
 
 namespace Untek\Core\Contract\Rbac\Traits;
 
+use Untek\Core\Code\Helpers\DeprecateHelper;
+
+DeprecateHelper::hardThrow();
+
 /**
  * Наследование всех CRUD-полномочий в общее полномочие
  * 

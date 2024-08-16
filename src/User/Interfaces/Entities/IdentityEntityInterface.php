@@ -3,6 +3,9 @@
 namespace Untek\Core\Contract\User\Interfaces\Entities;
 
 use Symfony\Component\Security\Core\User\UserInterface;
+use Untek\Core\Code\Helpers\DeprecateHelper;
+
+DeprecateHelper::hardThrow();
 
 /**
  * Интерфейс сущности аккаунта пользователя
